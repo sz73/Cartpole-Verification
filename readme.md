@@ -1,10 +1,24 @@
 # Verification of a neural network controlled non-linear system
 
-![](animation_cart_pole_optim.gif)
-
 ### An animation of an neural network controlled cart pole that is trained to swing up
 
+![](animation_cart_pole_optim.gif)
+
+--- 
+### The results of the reachability analysis over two seconds
+
+
 ![](reach.png)
+
+---
+
+### Plant controlled by a neural network
+
+![](schaubild.png)
+
+In this graphic we see the basic layout of the system: the neural network controls the system with a force based on the integrated state variables. During training the gradients are taken through the differential equation to better inform the learning process about the physics involved.
+
+---
 
 ### The results of the reachability analysis over two seconds
 
